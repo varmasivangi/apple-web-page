@@ -14,6 +14,18 @@
 			margin: 0%;
 		}
 
+		@media (max-width: 1256px) {
+
+			
+
+			.contentonvideo {
+				display: none;
+			}
+
+
+
+		}
+
 		@media (max-width: 834px) {
 
 			.navbar {
@@ -25,20 +37,6 @@
 
 			}
 
-			/* .contentonvideo {
-				display: none;
-			} */
-
-			.contentonvideo {
-			width: 50%;
-			position: absolute!important;
-			z-index: 2;
-			top: 100px!important;
-			left: 30%!important;
-			color: white;
-			font-size: 1rem!important;
-		}
-
 
 		}
 
@@ -49,6 +47,9 @@
 			}
 
 		}
+
+
+
 
 
 
@@ -127,13 +128,6 @@
 			width: 100%;
 		}
 
-		.links {
-			margin-left: 305px;
-
-			margin-right: 305px;
-
-			font-size: 12px;
-		}
 
 		.links p {
 			color: #6e6e73;
@@ -141,15 +135,6 @@
 			font-size: 1rem;
 		}
 
-		.alllinks {
-			display: grid;
-			grid-template-rows: auto;
-			grid-template-columns: auto auto auto auto auto;
-			margin-left: 305px;
-
-			margin-right: 305px;
-			text-align: start;
-		}
 
 		.alllinks a {
 			text-decoration: none;
@@ -217,7 +202,7 @@
 		.contentonvideo {
 			width: 50%;
 			position: absolute;
-			z-index: 2;
+			z-index: 1;
 			top: 500px;
 			left: 36%;
 			color: white;
@@ -230,6 +215,9 @@
 			margin-left: 5%;
 			margin-top: 10%;
 			font-size: 1rem;
+		}
+		.imagesdiv{
+			padding: 0.5% 2%;
 		}
 	</style>
 </head>
@@ -285,7 +273,7 @@
 			</div>
 		</div>
 
-		<div class="p-3">
+		<div class="imagesdiv">
 			<div class="row allimg p-0">
 				<div class="col-12 p-0"><img width="100%" src="Screenshot2.png"></div>
 				<div class="col-12 p-0"><img width="100%" src="Screenshot3.png"></div>
@@ -310,7 +298,7 @@
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="col-12 col-md-8 ">
+			<div class="col-12 col-md-8 p-5">
 				<p class="pera">
 					*Data plan is required. 5G is available in selected markets and through selected carriers. Speeds
 					vary
@@ -378,69 +366,101 @@
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="col-4 col-md-2"> <a href="">Store</a>
-				<a href="">Mac</a>
-				<a href="">iPad</a>
-				<a href="">iPhone</a>
-				<a href="">Watch</a>
-				<a href="">TV & Home</a>
-				<a href="">AirTag</a>
-				<a href="">Accessories</a>
-				<a href="">Gift Cards</a>
-				<a href="">Services</a>
-				<a href="">Apple Music</a>
-				<a href="">Apple TV+</a>
-				<a href="">Apple Arcade</a>
-				<a href="">iCloud</a>
-				<a href="">Apple One</a>
-				<a href="">Apple Books</a>
-				<a href="">Apple Podcasts</a>
-			</div>
-			<div class="col-4  col-md-2">
-				<a href="">App Store</a>
-				<a href="">Account</a>
-				<a href="">Manage Your Apple ID</a>
-				<a href="">Apple Store Account</a>
-				<a href="">iCloud.com</a>
-				<a href="">Apple Store</a>
-				<a href="">Ways to Buy</a>
-				<a href="">Apple Trade In</a>
-				<a href="">Recycling Programme</a>
-				<a href="">Order Status</a>
-				<a href="">Shopping Help</a>
-				<a href="">For Business</a>
-				<a href="">Apple and Business</a>
-				<a href="">For Education</a>
-				<a href="">Apple and Education</a>
-				<a href="">Shop for Education</a>
-				<a href="">Shop for University</a>
-				<a href="">For Healthcare</a>
-				<a href="">Apple in Healthcare</a>
-				<a href="">Health on Apple Watch</a>
-				<a href="">Apple Values</a>
-				<a href="">Accessibility</a>
-				<a href="">Education</a>
-				<a href="">Environment</a>
-			</div>
-			<div class="col-4  col-md-2">
-				<a href="">Shop for University</a>
-				<a href="">For Healthcare</a>
-				<a href="">Apple in Healthcare</a>
-				<a href="">Health on Apple Watch</a>
-				<a href="">Apple Values</a>
-				<a href="">Accessibility</a>
-				<a href="">Education</a>
-				<a href="">Environment</a>
-				<a href="">Privacy</a>
-				<a href="">Supplier Responsibility</a>
-				<a href="">About Apple</a>
-				<a href="">Newsroom</a>
-				<a href="">Apple Leadership</a>
-				<a href="">Career Opportunities</a>
-				<a href="">Investors</a>
-				<a href="">Ethics & Compliance</a>
-				<a href="">Events</a>
-				<a href="">Contact Apple</a>
+			<div class=" col-12 col-md-8">
+				<div class="row justify-content-center alllinks">
+					<div class="col-2">
+						<p><a href="">
+								<h6>Shop and Learn</h6>
+							</a></p>
+						<p><a href="">Store</a></p>
+						<p><a href="">Mac</a></p>
+						<p><a href="">iPad</a></p>
+						<p><a href="">iPhone</a></p>
+						<p><a href="">Watch</a></p>
+						<p><a href="">AirPods</a></p>
+						<p><a href="">TV & Home</a></p>
+						<p><a href="">AirTag</a></p>
+						<p><a href="">Accessories</a></p>
+						<p><a href="">Gift Cards</a></p>
+						<p><a href="">
+								<h6>Apple Wallet</h6>
+							</a></p>
+						<p><a href="">Wallet</a></p>
+
+
+					</div>
+					<div class="col-2">
+						<p><a href="">
+								<h6>Account</h6>
+							</a></p>
+						<p><a href="">Manage Your Apple ID</a></p>
+						<p><a href="">Apple Store Account</a></p>
+						<p><a href="">iCloud.com</a></p>
+						<p><a href="">
+								<h6>Entertainment</h6>
+							</a></p>
+						<p><a href="">Apple One</a></p>
+						<p><a href="">Apple TV+</a></p>
+						<p><a href="">Apple Music</a></p>
+						<p><a href="">Apple Arcade</a></p>
+						<p><a href="">Apple Podcasts</a></p>
+						<p><a href="">Apple Books</a></p>
+						<p><a href="">App Store</a></p>
+
+					</div>
+					<div class="col-2">
+						<p><a href="">
+								<h6>Apple Store</h6>
+							</a></p>
+						<p><a href="">Ways to Buy</a></p>
+						<p><a href="">Apple Trade In</a></p>
+						<p><a href="">Recycling Programme</a></p>
+						<p><a href="">Order Status</a></p>
+						<p><a href="">Shopping Help</a></p>
+
+					</div>
+					<div class="col-2">
+						<p><a href="">
+								<h6>For Business</h6>
+							</a></p>
+						<p><a href="">Apple and Business</a></p>
+						<p><a href="">
+								<h6>For Education</h6>
+							</a></p>
+						<p><a href="">Apple and Education</a></p>
+						<p><a href="">Shop for Education</a></p>
+						<p><a href="">Shop for University</a></p>
+						<p><a href="">
+								<h6>For Healthcare</h6>
+							</a></p>
+						<p><a href="">Apple in Healthcare</a></p>
+						<p><a href="">Health on Apple Watch</a></p>
+
+
+					</div>
+					<div class="col-2">
+						<p><a href="">
+								<h6>Apple Values</h6>
+							</a></p>
+						<p><a href="">Accessibility</a></p>
+						<p><a href="">Education</a></p>
+						<p><a href="">Environment</a></p>
+						<p><a href="">Privacy</a></p>
+						<p><a href="">Supplier Responsibility</a></p>
+						<p><a href="">
+								<h6>About Apple</h6>
+							</a></p>
+						<p><a href="">Newsroom</a></p>
+						<p><a href="">Apple Leadership</a></p>
+						<p><a href="">Career Opportunities</a></p>
+						<p><a href="">Investors</a></p>
+						<p><a href="">Ethics & Compliance</a></p>
+						<p><a href="">Events</a></p>
+						<p><a href="">Contact Apple</a></p>
+
+
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
