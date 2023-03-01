@@ -16,7 +16,7 @@
 
 		@media (max-width: 1256px) {
 
-			
+
 
 			.contentonvideo {
 				display: none;
@@ -36,13 +36,18 @@
 				display: none;
 
 			}
-
+				.without{
+					display: none;
+				}
 
 		}
 
 		@media (min-width: 835px) {
 
 			.navbar-2 {
+				display: none;
+			}
+			.accordion{
 				display: none;
 			}
 
@@ -216,7 +221,8 @@
 			margin-top: 10%;
 			font-size: 1rem;
 		}
-		.imagesdiv{
+
+		.imagesdiv {
 			padding: 0.5% 2%;
 		}
 	</style>
@@ -366,7 +372,169 @@
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class=" col-12 col-md-8">
+
+			<div class="col-12 accordion">
+				<div class="accordion" id="accordionExample">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+									data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<p><a href="">
+										<h6>Shop and Learn</h6>
+									</a></p>
+								</button>
+							</h2>
+						</div>
+
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								
+								<p><a href="">Store</a></p>
+								<p><a href="">Mac</a></p>
+								<p><a href="">iPad</a></p>
+								<p><a href="">iPhone</a></p>
+								<p><a href="">Watch</a></p>
+								<p><a href="">AirPods</a></p>
+								<p><a href="">TV & Home</a></p>
+								<p><a href="">AirTag</a></p>
+								<p><a href="">Accessories</a></p>
+								<p><a href="">Gift Cards</a></p>
+								<p><a href="">
+										<h6>Apple Wallet</h6>
+									</a></p>
+								<p><a href="">Wallet</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button"
+									data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+									aria-controls="collapseTwo">
+									<p><a href="">
+										<h6>Account</h6>
+									</a></p>
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+							data-parent="#accordionExample">
+							<div class="card-body">
+							
+								<p><a href="">Manage Your Apple ID</a></p>
+								<p><a href="">Apple Store Account</a></p>
+								<p><a href="">iCloud.com</a></p>
+								<p><a href="">
+										<h6>Entertainment</h6>
+									</a></p>
+								<p><a href="">Apple One</a></p>
+								<p><a href="">Apple TV+</a></p>
+								<p><a href="">Apple Music</a></p>
+								<p><a href="">Apple Arcade</a></p>
+								<p><a href="">Apple Podcasts</a></p>
+								<p><a href="">Apple Books</a></p>
+								<p><a href="">App Store</a></p>
+
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button"
+									data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+									aria-controls="collapseThree">
+									<p><a href="">
+										<h6>Apple Store</h6>
+									</a></p>
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								
+								<p><a href="">Ways to Buy</a></p>
+								<p><a href="">Apple Trade In</a></p>
+								<p><a href="">Recycling Programme</a></p>
+								<p><a href="">Order Status</a></p>
+								<p><a href="">Shopping Help</a></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button"
+									data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+									aria-controls="collapseThree">
+									<p><a href="">
+										<h6>For Business</h6>
+									</a></p>
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								
+								<p><a href="">Apple and Business</a></p>
+								<p><a href="">
+										<h6>For Education</h6>
+									</a></p>
+								<p><a href="">Apple and Education</a></p>
+								<p><a href="">Shop for Education</a></p>
+								<p><a href="">Shop for University</a></p>
+								<p><a href="">
+										<h6>For Healthcare</h6>
+									</a></p>
+								<p><a href="">Apple in Healthcare</a></p>
+								<p><a href="">Health on Apple Watch</a></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button"
+									data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+									aria-controls="collapseThree">
+									<h6>Apple Values</h6>
+								</a></p>
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								<p><a href="">
+								
+								<p><a href="">Accessibility</a></p>
+								<p><a href="">Education</a></p>
+								<p><a href="">Environment</a></p>
+								<p><a href="">Privacy</a></p>
+								<p><a href="">Supplier Responsibility</a></p>
+								<p><a href="">
+										<h6>About Apple</h6>
+									</a></p>
+								<p><a href="">Newsroom</a></p>
+								<p><a href="">Apple Leadership</a></p>
+								<p><a href="">Career Opportunities</a></p>
+								<p><a href="">Investors</a></p>
+								<p><a href="">Ethics & Compliance</a></p>
+								<p><a href="">Events</a></p>
+								<p><a href="">Contact Apple</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class=" col-12 col-md-8 without">
 				<div class="row justify-content-center alllinks">
 					<div class="col-2">
 						<p><a href="">
